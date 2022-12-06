@@ -13,7 +13,7 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">材料</h5>
+            <h5 class="card-title">{{data.materiallist}}</h5>
             <div class="card-text">
               <ul>
                 <li v-for="item in data.material">{{ item.text }}</li>
@@ -37,11 +37,11 @@
   <div class="container mb-5">
     <div class="row gx-5">
       <div class="col-sm">
-        <h3>コツ・ポイント</h3>
+        <h3>{{data.pointlist}}</h3>
         <div v-for="item in data.point"><p>{{item.text}}</p></div>
       </div>
       <div class="col-sm">
-        <h3>このレシピの生い立ち</h3>
+        <h3>{{data.historylist}}</h3>
         <div v-for="item in data.history"><p>{{item.text}}</p></div>
       </div>
     </div>
