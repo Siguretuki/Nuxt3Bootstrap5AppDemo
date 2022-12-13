@@ -1,5 +1,3 @@
-import { Title } from "~~/.nuxt/components"
-
 export const useRecipe = () => useState('recipe', () => {
     return {
       title: "美味しさNo.1！KFC風フライドチキン",
@@ -43,3 +41,12 @@ export const useRecipe = () => useState('recipe', () => {
       ],
     }
   })
+
+const useWeb = {
+  data(){
+    return{
+        title:'hello!'
+    }
+
+}
+}
