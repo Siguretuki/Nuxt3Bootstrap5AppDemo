@@ -1,6 +1,11 @@
 export const useWeb = () => useState('web',()=> {
     return{
         title:'Welcome to my Website!',
+        subtitle:[
+          {text:"田中 良日斗"},
+          {text:"Vueを使ったwebサイト作成"},
+          {text:"Nuxt&BootStrapを使用"},
+        ],
         blog:[
           {day:'day1',contents:'contents1'},
           {day:'day2',contents:'contents2'},
