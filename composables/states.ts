@@ -10,6 +10,19 @@ export const useWeb = () => useState('web',()=> {
           {day:'day1',contents:'contents1'},
           {day:'day2',contents:'contents2'},
           {day:'day3',contents:'contents3'},
+        ],
+        web_skill:"web開発",
+        skill:[
+          {text:"html+css"},
+          {text:"JavaScript"},
+          {text:"vue.js"},
+          {text:"Next.js"},
+        ],
+        other_skill:"その他",
+        other:[
+          {text:"Microsoft Azure AI-900"},
+          {text:"日商珠算能力検定試験　二段"},
+          {text:"京都珠算振興会　暗算検定試験　九段"},
         ]
     }
 })
