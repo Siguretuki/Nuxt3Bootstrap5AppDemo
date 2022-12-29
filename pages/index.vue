@@ -5,6 +5,7 @@
             <h1>{{data.title}}</h1>
         <h3 class="text-center" v-for="item in data.subtitle">{{item.text}}</h3>
         </div>
+        <About />
         <div class="container px-4">
             <div class="row gx-5">
                 <div class="col">
@@ -25,8 +26,9 @@
 </script>
 <script>
 import Header from "@/components/header.vue";
-import Footer from "@/components/footer.vue";
+import About from "@/components/about.vue";
 import Skill from "@/components/skill.vue";
+import Footer from "@/components/footer.vue";
 export default{
     components:{
         Header,
