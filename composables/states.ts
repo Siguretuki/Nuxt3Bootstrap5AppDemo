@@ -5,11 +5,6 @@ export const useWeb = () => useState('web',()=> {
           {text:"Vueを使ったwebサイト作成"},
           {text:"Nuxt&BootStrapを使用"},
         ],
-        blog:[
-          {day:'day1',contents:'contents1'},
-          {day:'day2',contents:'contents2'},
-          {day:'day3',contents:'contents3'},
-        ],
         about:"私について",
         profile:[
           {text:"名前",contents:"田中 良日斗"},
@@ -17,7 +12,7 @@ export const useWeb = () => useState('web',()=> {
           {text:"学年",contents:"1年"},
           {text:"専攻",contents:"ホワイトハッカー"},
         ],
-        comment:"2022年4月に京都デザイン＆テクノロジー専門学校に入学。ホワイトハッカー専攻として様々な知識を取り入れつつ、10月に行われたCTF大会では京都テック生として個人成績は一位。また直近ではインテル様との産学連携プロジェクトにて滋慶学園グループ主催の滋慶comゲームショウ2022へインテル様から招待があり出席。現在はセキュリティサークルを立ち上げ、その代表として活動している。",
+        comment:"2022年4月に京都デザイン＆テクノロジー専門学校に入学。ホワイトハッカー専攻として様々な知識を取り入れつつ、10月に行われたCTF大会では京都テック内での個人成績は一位。また直近ではインテル様との産学連携プロジェクトにて滋慶学園グループ主催の滋慶comゲームショウ2022へインテル様から招待があり出席。現在はセキュリティサークルを立ち上げ、その代表として活動している。",
         web_skill:"web開発",
         skill:[
           {text:"html+css",percentage:"40%"},

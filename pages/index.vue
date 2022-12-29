@@ -6,16 +6,6 @@
         <h3 class="text-center" v-for="item in data.subtitle">{{item.text}}</h3>
         </div>
         <About />
-        <div class="container px-4">
-            <div class="row gx-5">
-                <div class="col">
-                    <h2 class="p-3 border bg-light" v-for="item in data.blog">{{item.day}}</h2>
-                </div>
-                <div class="col">
-                    <p class="p-3 border bg-light" v-for="item in data.blog">{{ item.contents }}</p>
-                </div>
-            </div>
-        </div>
         <Skill/>
         <Footer/>
         <nuxt/>
