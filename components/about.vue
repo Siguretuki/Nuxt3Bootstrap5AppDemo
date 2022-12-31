@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="about">
         <h2 class="container text-center">{{ data.about }}</h2>
         <div class="container">
             <div>

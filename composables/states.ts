@@ -5,27 +5,41 @@ export const useWeb = () => useState('web',()=> {
           {text:"Vueを使ったwebサイト作成"},
           {text:"Nuxt&BootStrapを使用"},
         ],
-        about:"私について",
+        about:"Profile",
         profile:[
           {text:"名前",contents:"田中 良日斗"},
-          {text:"学校",contents:"京都テック"},
+          {text:"学校",contents:"京都デザイン＆テクノロジー専門学校"},
           {text:"学年",contents:"1年"},
           {text:"専攻",contents:"ホワイトハッカー"},
         ],
-        comment:"2022年4月に京都デザイン＆テクノロジー専門学校に入学。ホワイトハッカー専攻として様々な知識を取り入れつつ、10月に行われたCTF大会では京都テック内での個人成績は一位。また直近ではインテル様との産学連携プロジェクトにて滋慶学園グループ主催の滋慶comゲームショウ2022へインテル様から招待があり出席。現在はセキュリティサークルを立ち上げ、その代表として活動している。",
+        comment:"2022年4月に京都デザイン＆テクノロジー専門学校に入学。ホワイトハッカー専攻として様々な知識を取り入れつつ、10月に行われたCTF大会では京都テック内での個人成績は一位。また直近ではインテル様との産学連携プロジェクトにて、幕張メッセで行われた滋慶学園グループ主催のイベント、滋慶comゲームショウ2022へインテル様から招待があり出席。現在はセキュリティサークルを立ち上げ、その代表として活動している。",
         web_skill:"web開発",
         skill:[
           {text:"html+css",percentage:"40%"},
-          {text:"JavaScript",percentage:"40%"},
           {text:"vue.js",percentage:"30%"},
           {text:"Next.js",percentage:"30%"},
         ],
-        other_skill:"その他",
+        programing_skill:"プログラミング",
+        programing:[
+          {text:"python",percentage:"50%"},
+          {text:"JavaScript",percentage:"40%"},
+          {text:"vbs+bat",percentage:"50%"},
+        ],
+        dev_environment_skill:"開発環境",
+        dev_environment:[
+          {text:"git",percentage:"40%"},
+          {text:"Nuxt",percentage:"45%"},
+          {text:"React",percentage:"35%"},
+        ],
+        other_skill:"資格",
         other:[
           {text:"Microsoft Azure AI-900"},
           {text:"日商珠算能力検定試験　二段"},
           {text:"京都珠算振興会　暗算検定試験　九段"},
-        ]
+        ],
+        footer:"copylight 2022 Sigulene",
+        links:{href:"https://twitter.com/selenekunn"},
+        name:"twitter",
     }
 })
 // export const useRecipe = () => useState('recipe', () => {

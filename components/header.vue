@@ -1,7 +1,7 @@
 <template>
     <div>
         <header>
-            <div>
+            <div id="home">
                 <nav-bar />
                 <nuxt />
             </div>

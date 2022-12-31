@@ -13,5 +13,8 @@
     "@vueuse/nuxt": "^9.5.0",
     "nuxt": "3.0.0-rc.13"
   },
-  "dependencies": {}
+  "dependencies": {
+    "svg-progress-bar": "^0.1.17",
+    "vue-progressbar": "^0.7.5"
+  }
 }
