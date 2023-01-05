@@ -10,7 +10,14 @@
             </div>
         </div>
         <div class="container">
-            <p>{{ data.comment }}</p>
+            <div class="row">
+                <div class="col-3">
+                    <img src="@/assets/img/myicon.jpg" alt="icon" class="my_icon rounded-circle my-5">
+                </div>
+                <div class="col-9 d-flex align-items-center">
+                    <p class="mb-0 lead">{{ data.comment }}</p>
+                </div>
+            </div>
         </div>
     </div>
 </template>

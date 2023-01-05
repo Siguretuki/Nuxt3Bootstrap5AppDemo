@@ -1,5 +1,5 @@
 <template>
-    <div id="web">
+    <div>
         <Header />
         <Title/>
         <About />
