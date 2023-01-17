@@ -3,7 +3,7 @@ export const useWeb = () => useState('web',()=> {
         title:'Welcome to my Website!',
         subtitle:[
           {text:"Vueを使ったwebサイト作成"},
-          {text:"Nuxt&BootStrapを使用"},
+          {text:"Nuxt環境&BootStrapを使用"},
         ],
         about:"Profile",
         profile:[
@@ -12,7 +12,7 @@ export const useWeb = () => useState('web',()=> {
           {text:"学年",contents:"1年"},
           {text:"専攻",contents:"ホワイトハッカー"},
         ],
-        comment:"2022年4月に京都デザイン＆テクノロジー専門学校に入学。ホワイトハッカー専攻として様々な知識を取り入れつつ、10月に行われたCTF大会では京都テック内での個人成績は一位。また直近ではインテルとの産学連携プロジェクトにて、幕張メッセで行われた滋慶学園グループ主催のイベント、滋慶comゲームショウ2022へインテル様から招待があり出席。現在はセキュリティサークルを立ち上げ、その代表として活動している。",
+        comment:"2022年4月に京都デザイン＆テクノロジー専門学校に入学。ホワイトハッカー専攻として様々な知識を取り入れつつ、10月に行われたCTF大会では京都テック内での個人成績一位を取得。また直近ではインテルとの産学連携プロジェクトにて、4人チームで企画した案が高い評価を獲得し、11月に幕張メッセで行われた滋慶学園グループ主催のイベント、滋慶comゲームショウ2022へインテル様から招待があり出席。現在はセキュリティサークルを立ち上げ、その代表として活動している。",
         web_skill:"web開発",
         skill:[
           {text:"html+css",percentage:"40%"},
@@ -21,15 +21,15 @@ export const useWeb = () => useState('web',()=> {
         ],
         programing_skill:"プログラミング",
         programing:[
-          {text:"python",percentage:"50%",width:"50"},
-          {text:"JavaScript",percentage:"40%",width:"40"},
-          {text:"vbs+bat",percentage:"50%",width:"50"},
+          {text:"python",percentage:"40%",width:"40"},
+          {text:"JavaScript",percentage:"30%",width:"30"},
+          {text:"vbs+bat",percentage:"40%",width:"40"},
         ],
         dev_environment_skill:"開発環境",
         dev_environment:[
-          {text:"git",percentage:"40%"},
+          {text:"git",percentage:"30%"},
           {text:"Nuxt",percentage:"45%"},
-          {text:"React",percentage:"35%"},
+          {text:"React",percentage:"40%"},
         ],
         other_skill:"資格",
         other:[
