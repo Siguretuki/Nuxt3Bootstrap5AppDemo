@@ -8,21 +8,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <nuxt-link class="nav-link" to="#home">Home</nuxt-link>
-                    </li>
-                    <li class="nav-item">
-                        <nuxt-link class="nav-link" to="#about">About</nuxt-link>
-                    </li>
-                    <li class="nav-item">
-                        <nuxt-link class="nav-link" to="#skill">Skill</nuxt-link>
+                        <nuxt-link class="nav-link" to="/">Home</nuxt-link>
                     </li>
                 <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown
                         </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">test</a></li>
-                        <li><a class="dropdown-item" href="#">test</a></li>
+                        <li><nuxt-link class="dropdown-item" to="/about">About</nuxt-link></li>
+                        <li><nuxt-link  class="dropdown-item" to="/#profile">Profile</nuxt-link></li>
+                        <li><nuxt-link  class="dropdown-item" to="/#skill">Skill</nuxt-link></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">test</a></li>
                     </ul>
