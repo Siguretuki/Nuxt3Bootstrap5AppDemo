@@ -12,7 +12,7 @@ export const useWeb = () => useState('web',()=> {
           {text:"学年",contents:"1年"},
           {text:"専攻",contents:"ホワイトハッカー"},
         ],
-        comment:"2022年4月に京都デザイン＆テクノロジー専門学校に入学。ホワイトハッカー専攻として様々な知識を取り入れつつ、10月に行われたCTF大会では京都テック内での個人成績一位を取得。また直近ではインテルとの産学連携プロジェクトにて、4人チームで企画した案が高い評価を獲得し、11月に幕張メッセで行われた滋慶学園グループ主催のイベント、滋慶comゲームショウ2022へインテル様から招待があり出席。現在はセキュリティサークルを立ち上げ、その代表として活動している。",
+        comment:"2022年4月に京都デザイン＆テクノロジー専門学校に入学。ホワイトハッカー専攻として様々な知識を取り入れつつ、10月に行われたCTF大会では京都テック内での個人成績一位を獲得。また直近ではインテルとの産学連携プロジェクトにて4人チームで企画した案が高い評価を獲得し、11月に幕張メッセで行われた滋慶学園グループ主催の滋慶comゲームショウ2022へ招待があり出席。現在はセキュリティサークルを立ち上げ、その代表として活動している。",
         web_skill:"web開発",
         skill:[
           {text:"html+css",percentage:"40%"},
@@ -38,8 +38,10 @@ export const useWeb = () => useState('web',()=> {
           {text:"京都珠算振興会　暗算検定試験　九段"},
         ],
         footer:"copylight 2022 Sigulene",
-        links:{href:"https://twitter.com/selenekunn"},
-        name:"twitter",
+        sns_link:[
+          {text:"https://twitter.com/selenekunn/",name:"twitter"},
+          {text:"https://github.com/Siguretuki",name:"github"},
+        ],
     }
 })
 // export const useRecipe = () => useState('recipe', () => {

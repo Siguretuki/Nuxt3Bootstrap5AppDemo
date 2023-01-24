@@ -1,8 +1,10 @@
 <template>
-    <div class="container text-center bg-light" id="footer">
+    <div class="text-center bg-light" id="footer">
         <footer>{{data.footer}}</footer>
-        <div id="link">
-            <a v-bind="links">{{ data.name }}</a>
+        <div id="link" v-for="item in data.sns_link">
+            <a :href="item.text">
+                <div>{{ item.name }}</div>
+            </a>
         </div>
     </div>
 </template>
