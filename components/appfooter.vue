@@ -1,6 +1,6 @@
 <template>
     <div class="text-center bg-light" id="footer">
-        <div class="p-4 pb-2">
+        <div class="p-4 pb-2" >
             <footer>{{data.footer}}</footer>
         </div>
         <div class="row justify-content-center">
