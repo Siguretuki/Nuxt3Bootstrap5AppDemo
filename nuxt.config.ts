@@ -18,4 +18,10 @@ export default defineNuxtConfig({
         '@vueuse/nuxt',
         '@nuxt/content'
       ],
+      plugins: [
+        {
+          src: '@/plugins/plugin',
+          mode: 'client'
+        }
+      ],
 })

@@ -1,6 +1,6 @@
 <template>
     <div id="profile">
-        <h2 class="container text-center">{{ data.about }}</h2>
+        <h2 class="container text-center p-2 pb-2 border-bottom">{{ data.about }}</h2>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-3">

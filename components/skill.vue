@@ -1,5 +1,6 @@
 <template>
     <div class="container" id="skill">
+        <h2 class="container text-center p-2 pb-2 border-bottom">{{ data.my_skill }}</h2>
         <div class="row p-4">
             <h2 class="p-2 pb-2 border-bottom">{{ data.web_skill }}</h2>
             <div class="col p-3 text-center border border-info rounded-circle" v-for="item in data.skill">
